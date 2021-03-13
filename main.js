@@ -24,7 +24,7 @@ function CatchPokemon(caja) {
     var request = new XMLHttpRequest();
 
     if (caja > 0 && caja < 899 && caja[0]!=0) {
-        document.getElementById("imagen").setAttribute("src","/source/cargando.gif")
+        document.getElementById("imagen").setAttribute("src","source/cargando.gif")
         request.open('GET', `https://pokeapi.co/api/v2/pokemon/${caja}`, true);
         request.send();
         request.onreadystatechange = function () {

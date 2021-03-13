@@ -1,6 +1,6 @@
 body{
     background-color: darkblue;
-    background: url("/source/wallpaper.jpg");
+    background: url("wallpaper.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
