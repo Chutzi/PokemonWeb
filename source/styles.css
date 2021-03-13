@@ -1,0 +1,25 @@
+body{
+    background-color: darkblue;
+    background: url("/source/wallpaper.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.center{
+    text-align: center;
+}
+.main-img{
+    width: 500px; 
+    height: 140px;
+}
+
+.text-table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="source/styles.css">
+    <title>Pokémon</title>
+</head>
+
+<body>
+    <div class="alert alert-warning center" role="alert">
+        Pokémon stat finder from 
+        <a href="https://pokeapi.co/" target="_blank" class="alert-link">PokéAPI</a>
+    </div>
+    <div class="container center">
+        <br />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+            class="main-img" alt="Error al cargar" >
+        <br />
+        <br />
+        <p>Enter the pokémon ID (1 - 898)</p>
+        <br />
+
+        <input id="caja" type="number">
+        <button class="btn btn-primary" onclick="Start()">Search</button>
+        <br />
+
+        <img src="" id="imagen" alt="">
+        <p id="p"></p>
+        <br />
+
+        <div id="tabla">
+        </div>
+
+        <button class="btn btn-warning" id="back" onclick="Back()" style="display:none;"> 
+            << </button>
+        <button class="btn btn-success" id="next" onclick="Next()" style="display:none;"> 
+            >> </button>
+        <br />
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
